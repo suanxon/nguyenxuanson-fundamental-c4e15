@@ -9,6 +9,7 @@ while n <3:
         password = input("Password:")
         if password == "abc":
             print("wellcome")
+            break
         else:
             print("Password is incorrect")
     n +=1
