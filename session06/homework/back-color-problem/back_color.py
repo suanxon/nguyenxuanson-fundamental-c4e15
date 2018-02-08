@@ -30,8 +30,8 @@ def get_shapes():
 
 def generate_quiz():
     i = randint(0, len(shapes) - 1)
-    shapes_dictionary = shapes[i]
-    text = shapes_dictionary['text']
+    shapes_text = shapes[i]
+    text = shapes_text['text']
     j = randint(0, len(shapes) - 1)
     shapes_color = shapes[j]
     color = shapes_color['color']
